@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/as3"
+    android:layout_height="match_parent">
+    <Toolbar
+        android:id="@+id/toolbar1"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#DA70D6"
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+        android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/as5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imageView1" />
+    <SearchView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView1" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1" />
+
+
+</LinearLayout>

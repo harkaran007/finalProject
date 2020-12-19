@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/as3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <Toolbar
+        android:id="@+id/toolbar1"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#DA70D6"
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+        android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="Large Text"
+            android:textColor="#800080"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:text="Large Text"
+            android:textColor="#800080"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:id="@id/editText1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout4">
+        <EditText
+            android:inputType="number"
+            android:background="#D8BFD8"
+            android:textColor="#800080"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/editText2" />
+        <Button
+            android:text="Edit Num"
+            android:layout_width="100dp"
+            android:background="#DA70D6"
+            android:layout_marginLeft="2dp"
+            android:layout_height="40dp"
+            android:id="@+id/button2" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout5">
+        <EditText
+            android:inputType="number"
+            android:layout_width="200dp"
+            android:textColor="#800080"
+            android:background="#D8BFD8"
+            android:layout_height="40dp"
+            android:id="@+id/editText3" />
+        <Button
+            android:text="Edit Age"
+            android:background="#DA70D6"
+            android:layout_marginLeft="2dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/button3" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout6">
+        <EditText
+            android:inputType="textPassword"
+            android:background="#D8BFD8"
+            android:textColor="#800080"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/editText4" />
+        <Button
+            android:text="edit pass"
+            android:layout_width="100dp"
+            android:layout_marginLeft="2dp"
+            android:background="#DA70D6"
+            android:layout_height="40dp"
+            android:id="@+id/button4" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
